@@ -4,7 +4,8 @@ import { inter } from "./fonts";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-around p-24 max-lg:flex-col max-lg:p-5 max-lg:justify-normal">
+    <main className="">
+      <div className="flex items-center justify-around p-24 max-lg:flex-col max-lg:p-5">
       <div className="flex flex-col justify-center w-2/5 max-lg:w-full max-lg:text-center max-lg:relative order-2 max-lg:order-1">
         <div className="text-sm leading-5 mb-6 max-lg:mt-9">ABOUT--PERSONAL</div>
         <div className="text-5xl leading-none mb-6 max-lg:text-3xl">!Hello! I´m Angela Smith</div>
@@ -29,7 +30,15 @@ export default function Home() {
             </svg>
           </Button>
         </div>
+</div>
+<div className="flex items-center justify-center align-middle h-screen w-screen">
+   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-7 h-7 bottom-0 " >
+          <path strokeLinecap="round" strokeLinejoin="round" d="m15 11.25-3-3m0 0-3 3m3-3v7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+        </svg>
+</div>
     </main>
   );
 }
+
+
 
